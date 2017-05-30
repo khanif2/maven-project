@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mulesoft.training.HelloMavenTest" time="3.758" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\khanif\AnypointStudio\advCourse-WS\maven-project"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\khanif\AnypointStudio\advCourse-WS\maven-project"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\khanif\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.5.0\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;C:\Program Files\Documentum\Shared;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files\ant\bin;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Program Files (x86)\WebEx\Productivity Tools;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\Box\Box Edit\;C:\Users\khanif\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\apache-maven-3.5.0/bin;C:\Users\khanif\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.5.0\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.5.0\bin\..\lib\jansi-native\windows64"/>
+    <property name="user.home" value="C:\Users\khanif"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="khanif"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.5.0\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_111\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_111\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.5.0\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="mavenFlowReturnsHelloMaven" classname="com.mulesoft.training.HelloMavenTest" time="3.088">
+    <failure message="expected:&lt;Hello [Maven]&gt; but was:&lt;Hello [World]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<Hello [Maven]> but was:<Hello [World]>
+	at com.mulesoft.training.HelloMavenTest.mavenFlowReturnsHelloMaven(HelloMavenTest.java:12)
+]]></failure>
+    <system-out><![CDATA[
+================================================================================
+= Testing: mavenFlowReturnsHelloMaven                                          =
+================================================================================
+INFO  2017-05-30 14:17:22,927 [Time-limited test] com.mulesoft.training.HelloMavenTest: Using working directory for test: C:\Users\khanif\AppData\Local\Temp\junit2430108775226154349
+INFO  2017-05-30 14:17:23,042 [Time-limited test] org.mule.lifecycle.AbstractLifecycleManager: Initialising RegistryBroker
+INFO  2017-05-30 14:17:23,179 [Time-limited test] org.mule.config.spring.MuleArtifactContext: Refreshing org.mule.config.spring.MuleArtifactContext@223dfa65: startup date [Tue May 30 14:17:23 EDT 2017]; root of context hierarchy
+INFO  2017-05-30 14:17:24,210 [Time-limited test] org.mule.config.spring.processors.NoDevkitInjectorProcessor: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO  2017-05-30 14:17:25,116 [Time-limited test] org.mule.util.journal.TransactionJournal: Using files for tx logs C:\Users\khanif\AppData\Local\Temp\junit2430108775226154349\queue-tx-log\tx1.log and C:\Users\khanif\AppData\Local\Temp\junit2430108775226154349\queue-tx-log\tx2.log
+INFO  2017-05-30 14:17:25,126 [Time-limited test] org.mule.util.journal.TransactionJournal: Using files for tx logs C:\Users\khanif\AppData\Local\Temp\junit2430108775226154349\queue-xa-tx-log\tx1.log and C:\Users\khanif\AppData\Local\Temp\junit2430108775226154349\queue-xa-tx-log\tx2.log
+INFO  2017-05-30 14:17:25,129 [Time-limited test] org.mule.lifecycle.AbstractLifecycleManager: Initialising model: _muleSystemModel
+INFO  2017-05-30 14:17:25,132 [Time-limited test] org.mule.construct.FlowConstructLifecycleManager: Initialising flow: mavenFlow
+INFO  2017-05-30 14:17:25,132 [Time-limited test] org.mule.exception.DefaultMessagingExceptionStrategy: Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@54c8c287
+INFO  2017-05-30 14:17:25,150 [Time-limited test] org.mule.processor.SedaStageLifecycleManager: Initialising service: mavenFlow.stage1
+INFO  2017-05-30 14:17:25,208 [Time-limited test] org.mule.config.spring.SpringXmlConfigurationBuilder: Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='maven-project.xml'}]"
+INFO  2017-05-30 14:17:25,210 [Time-limited test] org.mule.util.queue.QueueXaResourceManager: Starting ResourceManager
+INFO  2017-05-30 14:17:25,210 [Time-limited test] org.mule.util.queue.QueueXaResourceManager: Started ResourceManager
+INFO  2017-05-30 14:17:25,245 [Time-limited test] org.mule.module.http.internal.listener.DefaultHttpListenerConfig: Listening for requests on http://0.0.0.0:8081
+INFO  2017-05-30 14:17:25,247 [Time-limited test] org.mule.lifecycle.AbstractLifecycleManager: Starting model: _muleSystemModel
+INFO  2017-05-30 14:17:25,249 [Time-limited test] org.mule.construct.FlowConstructLifecycleManager: Starting flow: mavenFlow
+INFO  2017-05-30 14:17:25,249 [Time-limited test] org.mule.processor.SedaStageLifecycleManager: Starting service: mavenFlow.stage1
+INFO  2017-05-30 14:17:25,272 [Time-limited test] org.mule.DefaultMuleContext: 
+**********************************************************************
+* Mule Runtime and Integration Platform                              *
+* Version: 3.8.4 Build: 0fc91f08                                     *
+* MuleSoft, Inc.                                                     *
+* For more information go to http://www.mulesoft.org                 *
+*                                                                    *
+* Server started: 5/30/17 2:17 PM                                    *
+* Server ID: 39eba480-4564-11e7-b850-025041000001                    *
+* JDK: 1.8.0_111 (mixed mode)                                        *
+* OS encoding: Cp1252, Mule encoding: UTF-8                          *
+* OS: Windows 7 - Service Pack 1 (6.1, amd64)                        *
+* Host: REX03383N (172.20.189.252)                                   *
+*                                                                    *
+* Agents Running: None                                               *
+**********************************************************************
+WARN  2017-05-30 14:17:25,278 [Time-limited test] org.mule.model.seda.SedaModel: The <model> element is deprecated in Mule 3.4 and will be removed in Mule 4.0.  Flows do not need to be configured inside a <model> element. 
+INFO  2017-05-30 14:17:25,278 [Time-limited test] org.mule.lifecycle.AbstractLifecycleManager: Initialising model: main
+INFO  2017-05-30 14:17:25,279 [Time-limited test] org.mule.lifecycle.AbstractLifecycleManager: Starting model: main
+WARN  2017-05-30 14:17:25,293 [Time-limited test] org.mule.model.seda.SedaService: Services (SedaService or any custom implementation) are deprecated in Mule 3.4 and will be removed in Mule 4.0. 
+INFO  2017-05-30 14:17:25,293 [Time-limited test] org.mule.service.ServiceLifecycleManager: Initialising service: appleService
+INFO  2017-05-30 14:17:25,300 [Time-limited test] org.mule.exception.DefaultMessagingExceptionStrategy: Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@61495ad1
+INFO  2017-05-30 14:17:25,300 [Time-limited test] org.mule.component.ComponentLifecycleManager: Initialising component: component.744824965
+INFO  2017-05-30 14:17:25,301 [Time-limited test] org.mule.processor.SedaStageLifecycleManager: Initialising service: appleService
+INFO  2017-05-30 14:17:25,302 [Time-limited test] org.mule.service.ServiceLifecycleManager: Starting service: appleService
+INFO  2017-05-30 14:17:25,303 [Time-limited test] org.mule.component.ComponentLifecycleManager: Starting component: component.744824965
+INFO  2017-05-30 14:17:25,310 [Time-limited test] org.mule.processor.SedaStageLifecycleManager: Starting service: appleService
+INFO  2017-05-30 14:17:25,330 [Time-limited test] org.mule.lifecycle.AbstractLifecycleManager: Initialising connector: testConnector
+INFO  2017-05-30 14:17:25,356 [Time-limited test] org.mule.tck.testmodels.mule.TestConnector: Connected: TestConnector
+{
+  name=testConnector
+  lifecycle=initialise
+  this=45321f9
+  numberOfConcurrentTransactedReceivers=4
+  createMultipleTransactedReceivers=true
+  connected=true
+  supportedProtocols=[test]
+  serviceOverrides=<none>
+}
+
+INFO  2017-05-30 14:17:25,356 [Time-limited test] org.mule.tck.testmodels.mule.TestConnector: Starting: TestConnector
+{
+  name=testConnector
+  lifecycle=initialise
+  this=45321f9
+  numberOfConcurrentTransactedReceivers=4
+  createMultipleTransactedReceivers=true
+  connected=true
+  supportedProtocols=[test]
+  serviceOverrides=<none>
+}
+
+INFO  2017-05-30 14:17:25,357 [Time-limited test] org.mule.lifecycle.AbstractLifecycleManager: Starting connector: testConnector
+INFO  2017-05-30 14:17:25,398 [Time-limited test] org.mule.construct.FlowConstructLifecycleManager: Stopping flow: mavenFlow
+INFO  2017-05-30 14:17:25,399 [Time-limited test] org.mule.processor.SedaStageLifecycleManager: Stopping service: mavenFlow.stage1
+INFO  2017-05-30 14:17:25,454 [Time-limited test] org.mule.service.ServiceLifecycleManager: Stopping service: appleService
+INFO  2017-05-30 14:17:25,454 [Time-limited test] org.mule.processor.SedaStageLifecycleManager: Stopping service: appleService
+INFO  2017-05-30 14:17:25,512 [Time-limited test] org.mule.component.ComponentLifecycleManager: Stopping component: component.744824965
+INFO  2017-05-30 14:17:25,514 [Time-limited test] org.mule.lifecycle.AbstractLifecycleManager: Stopping model: _muleSystemModel
+INFO  2017-05-30 14:17:25,550 [Time-limited test] org.mule.module.http.internal.listener.DefaultHttpListenerConfig: Stopped listener on http://0.0.0.0:8081
+INFO  2017-05-30 14:17:25,551 [Time-limited test] org.mule.util.queue.QueueXaResourceManager: Stopping ResourceManager
+INFO  2017-05-30 14:17:25,551 [Time-limited test] org.mule.util.queue.QueueXaResourceManager: Stopped ResourceManager
+INFO  2017-05-30 14:17:25,553 [Time-limited test] org.mule.lifecycle.AbstractLifecycleManager: Disposing RegistryBroker
+INFO  2017-05-30 14:17:25,554 [Time-limited test] org.mule.construct.FlowConstructLifecycleManager: Disposing flow: mavenFlow
+INFO  2017-05-30 14:17:25,555 [Time-limited test] org.mule.processor.SedaStageLifecycleManager: Disposing service: mavenFlow.stage1
+INFO  2017-05-30 14:17:25,555 [Time-limited test] org.mule.service.ServiceLifecycleManager: Disposing service: appleService
+INFO  2017-05-30 14:17:25,556 [Time-limited test] org.mule.component.ComponentLifecycleManager: Disposing component: component.744824965
+INFO  2017-05-30 14:17:25,556 [Time-limited test] org.mule.processor.SedaStageLifecycleManager: Disposing service: appleService
+INFO  2017-05-30 14:17:25,557 [Time-limited test] org.mule.lifecycle.AbstractLifecycleManager: Disposing model: _muleSystemModel
+INFO  2017-05-30 14:17:25,629 [Time-limited test] org.mule.config.spring.MuleArtifactContext: Closing org.mule.config.spring.MuleArtifactContext@223dfa65: startup date [Tue May 30 14:17:23 EDT 2017]; root of context hierarchy
+INFO  2017-05-30 14:17:25,762 [Time-limited test] org.mule.DefaultMuleContext: 
+**********************************************************************
+* Mule Context shut down normally on: 5/30/17 2:17 PM                *
+* Server was up for: 0 days, 0 hours, 0 mins, 0.550 sec              *
+**********************************************************************
+]]></system-out>
+  </testcase>
+</testsuite>
