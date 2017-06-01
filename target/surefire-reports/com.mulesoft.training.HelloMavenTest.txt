@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.mulesoft.training.HelloMavenTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.758 s <<< FAILURE! - in com.mulesoft.training.HelloMavenTest
-mavenFlowReturnsHelloMaven(com.mulesoft.training.HelloMavenTest)  Time elapsed: 3.088 s  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<Hello [Maven]> but was:<Hello [World]>
-	at com.mulesoft.training.HelloMavenTest.mavenFlowReturnsHelloMaven(HelloMavenTest.java:12)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.019 sec - in com.mulesoft.training.HelloMavenTest
