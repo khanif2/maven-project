@@ -1,4 +1,4 @@
-<testsuite name="new-test-suite" time="0.554" failures="0" errors="0" skipped="0" tests="0">
+<testsuite name="new-test-suite" time="0.661" failures="0" errors="0" skipped="0" tests="0">
   <properties>
     <property key="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property key="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin"/>
@@ -42,7 +42,7 @@
     <property key="java.class.path" value="C:\Program Files\apache-maven-3.5.0\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
     <property key="user.name" value="khanif"/>
     <property key="java.vm.specification.version" value="1.8"/>
-    <property key="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean package"/>
+    <property key="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package"/>
     <property key="java.home" value="C:\Program Files\Java\jdk1.8.0_111\jre"/>
     <property key="sun.arch.data.model" value="64"/>
     <property key="user.language" value="en"/>
@@ -53,11 +53,13 @@
     <property key="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property key="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_111\jre\classes"/>
     <property key="java.vendor" value="Oracle Corporation"/>
+    <property key="sun.stderr.encoding" value="cp437"/>
     <property key="maven.home" value="C:\Program Files\apache-maven-3.5.0\bin\.."/>
     <property key="file.separator" value="\"/>
     <property key="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property key="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property key="sun.cpu.endian" value="little"/>
+    <property key="sun.stdout.encoding" value="cp437"/>
     <property key="sun.desktop" value="windows"/>
     <property key="sun.cpu.isalist" value="amd64"/>
     <property key="mule.testingMode" value="true"/>
