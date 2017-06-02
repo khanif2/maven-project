@@ -94,7 +94,7 @@
     <groupId>org.mule.tools.maven</groupId>
     <artifactId>mule-maven-plugin</artifactId>
     <version>2.0</version>
-    <configuration>
+    	<configuration>
         <deploymentType>cloudhub</deploymentType>
         <muleVersion>3.7.3</muleVersion>
         <username>Khanif1</username>
